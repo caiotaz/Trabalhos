@@ -1,0 +1,90 @@
+﻿body {
+background:url(../Imagens/bg2.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+
+#topo{
+    background:url(../Imagens/CadCurso.jpg);
+    width:850px;
+    height:300px;
+}
+
+#topoDisciplina{
+    background:url(../Imagens/CadDisciplinas.jpg);
+    width:850px;
+    height:300px;
+}
+
+#topoAluno{
+    background:url(../Imagens/CadAlunos.jpg);
+    width:850px;
+    height:300px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#conteudo{
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width:850px;
+	margin:auto;
+    height:1000px;
+
+    box-shadow: 5px 5px 0 #333;
+   -webkit-box-shadow: 5px 5px 0 #333;
+   -moz-box-shadow: 5px 5px 0 #333;
+
+   
+
+} 
+
+.Excluir{
+background-color:#ae1818;
+text-decoration:none;
+border: none;
+border-radius: 4px;
+color:black;
+width: 100%;
+}
+.Editar{
+background-color:#4CAF50;
+text-decoration:none;
+border: none;
+border-radius: 4px;
+color:black;
+}
+.Excluir:hover{
+background-color:#ff0000;
+}
+.Editar:hover{
+background-color:#32e430;
+}
+.Htxt{
+background-color:#0b5ed1;
+}
